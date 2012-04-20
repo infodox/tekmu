@@ -1,0 +1,8 @@
+--- lib/msf/core/auxiliary/mixins.rb	2010-10-12 20:09:27.049558382 +0200
++++ lib/msf/core/auxiliary/mixins.rb	2010-10-12 19:57:34.757137902 +0200
+@@ -7,4 +7,5 @@
+ require 'msf/core/auxiliary/report'
+ require 'msf/core/auxiliary/scanner'
+ require 'msf/core/auxiliary/timed'
++require 'msf/core/auxiliary/update'
+ require 'msf/core/auxiliary/wmapmodule'
